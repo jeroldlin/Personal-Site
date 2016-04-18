@@ -185,6 +185,13 @@ function setNavigation(){
 	changeToPageBackgroundChange("clickToPE", "url('Graph.jpg')");
 	changeToPageBackgroundChange("clickToLE", "url('Wall.jpg')");
 	changeToPageBackgroundChange("clickToCI", "url('')");
+	
+	function preloadImage(image){
+		$('#loadPics').prepend('<img src="' + image + '" />')
+	}
+	preloadImage("Sea.jpg");
+	preloadImage("Graph.jpg");
+	preloadImage("Wall.jpg");
 }
 //Navigation modules
 
