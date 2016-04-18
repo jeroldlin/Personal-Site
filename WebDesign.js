@@ -30,9 +30,9 @@ function adjustUItoScreenSize(){
 	function toLargeScreen(){
 		if (bar == false){
 			$("#Nav").css("left","-220px");
-			$(".centerContent").css("left","100px");
+			$(".center").css("padding-left","100px");
 		}else{
-			$(".centerContent").css("left","270px");
+			$(".center").css("padding-left","270px");
 		}
 		$("#Nav").attr("class","navExpaned navbar navbar-default");
 		$("#Nav").css("height","100%");
@@ -43,16 +43,15 @@ function adjustUItoScreenSize(){
 		$("#bar4").css("display","");
 		$("#bar5").css("display","");
 		$("#bar6").css("display","");
-		$(".centerContent").css("position","fixed");
 		
 	}
 	
 	function toSmallScreen(){
 		if (bar == false){
 			$("#Nav").css("left","0");
-			$(".centerContent").css("left","50px");
+			$(".center").css("padding-left","50px");
 		}else{
-			$(".centerContent").css("left","50px");
+			$(".center").css("padding-left","50px");
 		}
 		$("#Nav").attr("class","navCollapsed navbar navbar-default");
 		$("#Nav").css("height","0%");
@@ -63,7 +62,6 @@ function adjustUItoScreenSize(){
 		$("#bar4").css("display","none");
 		$("#bar5").css("display","none");
 		$("#bar6").css("display","none");
-		$(".centerContent").css("position","");
 	}
 }
 
@@ -116,7 +114,7 @@ function navFunctions (){
 		tl.to("#bar4", 2, {left:"210px", opacity:0, height:"100%", width:"30px", top:"0", "z-index": 1});
 		barOut();
 	}else{
-		$(".centerContent").css("left","50px");
+		$(".center").css("padding-left","50px");
 	}
 	$(document).ready(function(){//overwrite bootstrap css --better for phone & desktop
 		$("#bar4").on('click', function () {
@@ -141,7 +139,7 @@ function navFunctions (){
 		tl.to("#bar5", 1, {left:"0px", opacity:1, height:"100%", top:"0", width:"50"}, "-=2");
 		tl.to("#bar6", 1, {delay: 1, opacity:"1"},"-=2");
 		if($( window ).width() > 768) {
-			tl.to(".centerContent", 1, {left:"100px"}, "-=2");
+			tl.to(".center", 1, {"padding-left":"100px"}, "-=2");
 		}
 		bar = false;
 	}
@@ -153,7 +151,7 @@ function navFunctions (){
 		tl.to("#bar2", 0.1, {left:"230px", opacity:1, height:"100%", top:"0"});
 		tl.to("#bar5", 0.1, {left:"210px", opacity:1, height:"100%", top:"0", width:"20"});
 		tl.to("#bar6", 0.1, {opacity:"0"});
-		tl.to(".centerContent", 1, {left:"270px"}, "-=1");
+		tl.to(".center", 1, {"padding-left":"270px"}, "-=1");
 		tl.from(".clickToPE", 0.2, {right:200, opacity:0, rotation: "-180"});
 		tl.from(".clickToLE", 0.2, {right:200, opacity:0, rotation: "-180"});
 		tl.from(".clickToCI", 0.2, {right:200, opacity:0, rotation: "-180"});

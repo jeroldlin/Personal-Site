@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-html{	height:100%}
+html{	height:100%;}
 
 body{	min-height:			98%;
 		margin:				0;}
@@ -96,10 +96,10 @@ body{	min-height:			98%;
 
 .center{	display:			none;
 			background-size:	cover;
-			height: 			100vh;
-			overflow:			auto;
+			min-height: 		100vh;
+			overflow:			;
 			margin:				0px;
-			position:			;
+			position:			relative;
 			padding-top:		100px;
 			padding-left:		100px;
 			padding-right:		2%;
@@ -107,7 +107,7 @@ body{	min-height:			98%;
 			z-index:			-2;}
 			
 .centerContent {	right:		50px;
-					position:	fixed;}
+					position:	relative;}
 			
 #welcome {	color:				white;
 			font-family:		"Luckiest Guy";}
