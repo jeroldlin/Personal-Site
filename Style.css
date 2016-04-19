@@ -33,8 +33,6 @@ body{	min-height:			98%;
 				top:				50px;
 				background-color:	transparent;}
 
-.navebar-nav{	background-color: 	;}
-
 #bar1{ 	background-color:	gray;
 		height:				100%;
 		width:				10px;
@@ -109,10 +107,12 @@ body{	min-height:			98%;
 			font-family:		"Luckiest Guy";}
 			
 #PE		 {	color:				black;
-			font-family:		"Alfa Slab One";}	
+			font-family:		"Ubuntu";}
+#PE		p{	font-family:		Roboto Condensed;}
 			
 #LE		 {	color:				white;
 			font-family:		"Alfa Slab One";}
+#LE		p{	font-family:		Roboto Condensed;}
 			
 #CI		 {	color:				black;
 			font-size:			20px;
