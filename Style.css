@@ -102,11 +102,8 @@ body{	min-height:			98%;
 			position:			relative;
 			padding-top:		100px;
 			padding-left:		100px;
-			padding-bottom:		50px;
-			z-index:			-2;}
-			
-.centerContent {	right:		50px;
-					position:	relative;}
+			padding-right:		50px;
+			padding-bottom:		50px;}
 			
 #welcome {	color:				white;
 			font-family:		"Luckiest Guy";}
