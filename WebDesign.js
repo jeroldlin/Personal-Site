@@ -38,12 +38,7 @@ function adjustUItoScreenSize(){
 		$("#Nav").css("height","100%");
 		$("#myNavbar").attr("class","collapse navbar-collapse expandedList");
 		$("#myNavbar").css("background-color","transparent");
-		$("#bar1").css("display","");
-		$("#bar2").css("display","");
-		$("#bar4").css("display","");
-		$("#bar5").css("display","");
-		$("#bar6").css("display","");
-		
+		$(".bar").css("display","");	
 	}
 	
 	function toSmallScreen(){
@@ -57,11 +52,7 @@ function adjustUItoScreenSize(){
 		$("#Nav").css("height","0%");
 		$("#myNavbar").attr("class","collapse navbar-collapse");
 		$("#myNavbar").css("background-color","grey");
-		$("#bar1").css("display","none");
-		$("#bar2").css("display","none");
-		$("#bar4").css("display","none");
-		$("#bar5").css("display","none");
-		$("#bar6").css("display","none");
+		$(".bar").css("display","none");
 	}
 }
 
