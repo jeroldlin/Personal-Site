@@ -4,9 +4,6 @@ html{	height:100%;}
 
 body{	min-height:			98%;
 		margin:				0;}
-		
-#background {	
-				}
 
 #Navbar{	position:			relative;
 			height:				100%;
@@ -58,7 +55,8 @@ body{	min-height:			98%;
 		left:				210px}
 		
 #bar3{ 	background-color:	gray;
-		position:			fixed;}
+		position:			fixed;
+		z-index:			-4;}
 		
 #bar4{ 	background-color:	transparent;
 		position:			fixed;
@@ -95,13 +93,13 @@ body{	min-height:			98%;
 .center{	display:			none;
 			background-size:	cover;
 			min-height: 		100vh;
-			overflow:			;
 			margin:				0px;
 			position:			relative;
 			padding-top:		100px;
 			padding-left:		100px;
 			padding-right:		50px;
-			padding-bottom:		50px;}
+			padding-bottom:		50px;
+			z-index:			0;}
 			
 #welcome {	color:				white;
 			font-family:		"Luckiest Guy";}
