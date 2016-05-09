@@ -117,6 +117,10 @@ body{	min-height:			98%;
 			font-family:		"Delius";}
 			
 .CIdscription {	font-size:	16px;	}
+
+.portfolioImage {	width:			70vw;
+					max-width:		250px;
+					margin-bottom: 	40px;}
 			
 #loadPics {	display:	none;}
 			
