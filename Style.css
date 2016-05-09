@@ -116,6 +116,8 @@ body{	min-height:			98%;
 			font-size:			20px;
 			font-family:		"Delius";}
 			
+.CIdscription {	font-size:	16px;	}
+			
 #loadPics {	display:	none;}
 			
 .navbar-default .navbar-nav>li>a {			color:	white;}
